@@ -11,7 +11,6 @@ def print_action():
     print("3. Display the list")
     print("4. exit the program")
 
-
 while user_choice != str(4):
     print_action()
     user_choice = input("Enter the index of the action :: ")

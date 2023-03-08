@@ -2,7 +2,6 @@
 def add(task_name):
     # add item to the list
     # assign false as task done by default
-
     return [task_name, False]
 
 
@@ -33,8 +32,8 @@ def display_list(task_list):
 
         for i in range(len(task_list)):
             if task_list[i][1]:
-                print(str(i + 1) + ". [V] ", end='')
+                print(str(i + 1) + ". [X] ", end='')
             else:
-                print(str(i + 1) + '. [X] ', end='')
+                print(str(i + 1) + '. [ ] ', end='')
             print(task_list[i][0])
     print()
